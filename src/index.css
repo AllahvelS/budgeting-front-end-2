@@ -11,3 +11,111 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-decoration: none;
+  color: #12125b;
+}
+button {
+  border-radius: round;
+  color: black;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+
+.card, 
+.card p {
+  margin: 10px;
+
+}
+
+
+
+h3, h4, h5, h6 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+label {
+  font-weight: bold;
+}
+
+nav {
+  background-image: linear-gradient(270deg, #12e49a, rgb(2, 145, 16));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  box-shadow: 2px 2px 10px rgb(184, 182, 182);
+  margin-bottom: 1em;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+}
+
+td {
+  text-align: center;
+}
+
+tbody td:not(td:first-of-type):hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+tbody tr:nth-child(even) {
+  background: #f4eafd;
+}
+
+.New form {
+  background-image: linear-gradient(#9dc8d0, rgb(10, 34, 19));
+  /* background: rgb(49, 57, 94); */
+  box-shadow: 2px 2px 10px rgb(153, 153, 153);
+  color: white;
+  margin: auto;
+  padding: 30px;
+  width: 35%;
+}
+form input {
+  margin: 30px;
+}
+
+input[type],
+textarea {
+  background: #ececf1;
+  color: rgb(0, 0, 0);
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+  width: 2%;
+}
+
+
+input[type="submit"] {
+  width: 30%;
+}
+
+.showNavigation {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+#isDeposit {
+  display: inline;
+  margin: 30px;
+}
+
+/* #mistakesWereMadeToda */
